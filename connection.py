@@ -7,7 +7,8 @@ def on_message(ws, message):
 
 def on_error(ws, error):
     print(error)
-
+    """""
+    """
 
 def on_close(ws):
     print("Connection closed")
